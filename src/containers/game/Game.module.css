@@ -1,0 +1,24 @@
+.CardsContainer {
+    height: 480px;
+    width: 340px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+@media screen and (min-width: 400px){
+    .CardsContainer {
+        height: 540px;
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .CardsContainer {
+        height: 600px;
+        width: 600px;
+    }
+}

@@ -1,0 +1,27 @@
+.Header {
+    width: 340px;
+    margin:0 auto;
+    padding: 10px 0;
+}
+
+.Timer {
+    float: left;
+}
+
+.Points {
+    float: right;
+    margin-right: 5px;
+}
+
+
+@media screen and (min-width: 400px){
+    .Header {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .Header {
+        width: 600px;
+    }
+}
