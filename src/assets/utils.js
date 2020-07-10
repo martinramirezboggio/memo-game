@@ -7,7 +7,9 @@ import hitler from "../assets/img/hitler.jpg"
 import joe from "../assets/img/joe.jpg"
 import meg from "../assets/img/meg.jpg"
 
-export const cards = [
+export const WON_MESSAGE = "Congratulations, you won!!!"
+
+export const cardsDeck = [
   {
     id: "stewie",
     image: stewie
